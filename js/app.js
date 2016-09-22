@@ -118,7 +118,7 @@ var getAnswerers = function(answerers) {
 	};
 
 	$.ajax({ //this isn't working!!
-		url: "http://api.stackexchange.com/2.2/tags/" + answerers + "/top-answerers/all_time",
+		url: "https://api.stackexchange.com/2.2/tags/" + answerers + "/top-answerers/all_time",
 		data: requested,
 		dataType: "jsonp",
 		type: "GET",
